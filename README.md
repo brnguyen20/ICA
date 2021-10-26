@@ -5,4 +5,4 @@ For example, if a mixture is created using two separate sounds (i.e., a human ta
 
 In the "input files" folder, there are 180 mixtures containing two separate sounds - each of those mixtures was duplicated using the same two sounds, just at different levels. Therefore, there are 360 mixtures total.
 
-**In the "output files" folder, you will find files in the format 'out{x}__{y}.wav', where x is either 0 or 1, and represents one of the original signals used to create mixture number y. Therefore, for every 'out{0}__{y}.wav' there is a 'out{1}__{y}.wav' to account for both original signals.**
+**In the "output files" folder, you will find files in the format 'out{x}\_{y}.wav', where x is either 0 or 1, and represents one of the original signals used to create mixture number y. Therefore, for every 'out{0}__{y}.wav' there is a 'out{1}__{y}.wav' to account for both original signals.**
