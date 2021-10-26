@@ -4,3 +4,5 @@ of audio mixtures. One limitation is that, in order to use ICA, for n number of 
 For example, if a mixture is created using two separate sounds (i.e., a human talking and a bird chirping) , then you must provide two separate mixtures containing a human talking and a bird chirping (each at different amplitudes)) for ICA to work.
 
 In the "input files" folder, there are 180 mixtures containing two separate sounds - each of those mixtures was duplicated using the same two sounds, just at different levels. Therefore, there are 360 mixtures total.
+
+In the "output files" folder, you will find files in the format 'out{x}__{y}.wav', where x 
