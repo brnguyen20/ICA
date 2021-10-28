@@ -170,6 +170,7 @@ for count, WAV in enumerate(WAVs):
     sampling_rate, mix1 = wavfile.read('input files/{}.wav'.format(file1))
     sampling_rate, mix2 = wavfile.read('input files/{}.wav'.format(file2))
 
+#     convert from stereo to mono audio file if necessary
     if mix1.ndim > 1 or mix2.ndim > 1:
         sound = AudioSegment.from_wav("input files/{}.wav".format(file1))
         sound = sound.set_channels(1)
